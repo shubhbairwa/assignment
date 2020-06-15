@@ -17,6 +17,7 @@ class AudioPlayActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_audio_play)
         player= MediaPlayer.create(this,R.raw.song)
+        ivpause.visiblity=View.INVISIBLE
 
     }
 
